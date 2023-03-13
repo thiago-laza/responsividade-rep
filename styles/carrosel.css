@@ -91,7 +91,13 @@
     }
 
     .card{
-        width: 50%;
-        margin: 2em auto;
+        width: 60%;
+        margin: 3em auto;
+    }
+}
+
+@media screen and (min-width:1728px){
+    .carrosel__container{
+        display: flex;
     }
 }

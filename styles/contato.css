@@ -33,15 +33,29 @@
     color: var(--azul);
     background:url("../img/Email.svg") no-repeat;
     padding-left: 2em;
+    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
     
 }
 
 @media screen and (min-width: 1024px){
     .contato{
         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__descrição{
+        margin-right: 1em;
+        width: 30%;
     }
 
     .contato__email{
-        width: 40%;
+        width: 30%;
     }
 }
